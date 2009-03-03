@@ -11,6 +11,6 @@ package :memcached_daemon, :provides => :memcached do
 end
 
 package :libmemcached do
-  source 'http://download.tangent.org/libmemcached-0.25.tar.gz'
+  source 'http://download.tangent.org/libmemcached-0.26.tar.gz'
   requires :memcached_daemon
 end
